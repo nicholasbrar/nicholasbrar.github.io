@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: rgba(209, 227, 245, 0.781);
 }
 
 p {
@@ -11,4 +11,20 @@ header {
     color: rgb(230, 19, 19);
     padding: 20px;
     text-align: center;
+}
+
+header.navbar {
+    margin-bottom: 20px; /* Adds space below the navbar */
+}
+
+.navbar-brand, .nav-link {
+    color: #000000 !important; /* Change this to your desired color */
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #030a11 !important; /* Darker shade for hover effect */
+}
+
+.nav-item {
+    margin-left: 50px; /* Adds spacing between nav items */
 }
