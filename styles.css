@@ -14,17 +14,56 @@ header {
 }
 
 header.navbar {
-    margin-bottom: 20px; /* Adds space below the navbar */
+    margin-bottom: 20px;
 }
 
 .navbar-brand, .nav-link {
-    color: #000000 !important; /* Change this to your desired color */
+    color: #000000 !important;
 }
 
 .navbar-brand:hover, .nav-link:hover {
-    color: #030a11 !important; /* Darker shade for hover effect */
+    color: #030a11 !important;
 }
 
 .nav-item {
-    margin-left: 50px; /* Adds spacing between nav items */
+    margin-left: 50px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-collapse {
+    margin-left: 0;
+}
+
+.btn-custom {
+    background-color: #5aaae4;
+    color: #ffffff;
+    border: 2px solid #5aaae4;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover, .btn-custom:focus {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-secondary-custom {
+    background-color: #f8f9fa;
+    color: #333;
+    border: 2px solid #ddd;
+}
+
+.btn-secondary-custom:hover, .btn-secondary-custom:focus {
+    background-color: #e2e6ea;
+    border-color: #ccc;
+    color: #333;
 }

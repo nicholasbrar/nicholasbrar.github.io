@@ -4,22 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="navbar navbar-expand-lg navbar-light" style="background-color: #5aaae4;"> 
+    <header class="navbar navbar-expand-lg navbar-light" style="background-color: #5aaae4;">
         <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Nicholas Brar</a>
-            </div>
-            <nav>
-                <ul class="nav navbar-nav">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+            <a class="btn btn-custom" href="#">Nicholas Brar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Projects
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#project1">Project 1</a>
+                            <a class="dropdown-item" href="#project2">Project 2</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#more">More Projects</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
                 </ul>
-            </nav>
+            </div>
         </div>
     </header>
 
@@ -34,5 +49,6 @@
     <section id="contact" class="container">
         <h2>Contact</h2>
     </section>
+
 </body>
 </html>
