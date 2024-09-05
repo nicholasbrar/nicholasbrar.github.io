@@ -13,29 +13,6 @@ header {
     text-align: center;
 }
 
-header.navbar {
-    margin-bottom: 20px;
-}
-
-.navbar-brand, .nav-link {
-    color: #000000 !important;
-}
-
-.navbar-brand:hover, .nav-link:hover {
-    color: #030a11 !important;
-}
-
-.nav-item {
-    margin-left: 50px;
-}
-
-.navbar-nav {
-    margin-left: auto;
-}
-
-.navbar-collapse {
-    margin-left: 0;
-}
 
 .btn-custom {
     background-color: #5aaae4;
@@ -67,3 +44,4 @@ header.navbar {
     border-color: #ccc;
     color: #333;
 }
+
