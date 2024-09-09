@@ -6,28 +6,67 @@
     <title>Nick's Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .some-words {
+            color: rgb(190, 190, 190);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            font-weight: 510;
+        }
+        header h1 {
+            margin: 0; 
+            line-height: 1.2; 
+        }
+    </style>
+    
 </head>
 <body>
     <div class="resume">
         <header>
-            <h1>Hello! I'm Nick </h1>
-            <p>finishing my last year at Stony Brook University, </p>
-            <p>pursuing a degree in math.</p>
-            <p><I'm passionate about mathematics, emerging technologies, problem-solving, and I love exploring their intersection through software development. </p>
+            <h1>Hello! I'm  <span class="some-words">Nick</span> -- finishing my</h1>
+            <h1><span class="some-words">senior</span> year at   Stony  Brook</h1>
+            <h1>University, majoring in <span class = "some-words">math</span></h1>
+            <p>I'm passionate about math, emerging technologies, problem-solving, and I love exploring their intersection through software development.</p>
         </header>
         <section class="hobbies">
             <h2>A few of my many passions</h2>
-            <p><strong>Chess player </strong>Avid competitive chess fan, rated in the top 1% on chess.com and an active member of the Stony Brook and Pittsburgh chess clubs, competing in USCF tournements and the Collegiate Chess League</p>
-            <p>my rating progression can be seen here.</p>
+            <h3><strong>Chess player </strong></h3>
+            <p>Avid competitive chess fan, rated in the top 1% on chess.com and an active member of the Stony Brook and Pittsburgh chess clubs, competing in USCF tournements and the Collegiate Chess League.</p>
+            <p>my rating progression can be seen <a href="https://www.chess.com/stats/live/blitz/nixingb/0" target="_blank">here</a>.</p>
+        
+            <h3><strong>Problem Solving and Programming</strong></h3>
+            <p>I have a deep passion for programming, with a particular interest in math-focused algorithms and competitive programming. I love approaching problems through a mathematical lens, and I've linked some examples of my work below:</p>
+            <ul>
+                <li><a href="https://github.com/nicholasbrar/Leetcode" target="_blank">LeetCode Solutions</a></li>
+                <li><a href="https://github.com/nicholasbrar/Project-Euler" target="_blank">Project Euler Solutions</a></li>
+            </ul>
         </section>
         <section class="projects">
             <h2>Projects</h2>
             <ul>
-                <li>Ulam Spiral</li>
+                <li>
+                    <a href="https://github.com/nicholasbrar/UlamSpiral" target="_blank">
+                        <strong>Ulam Spiral</strong>
+                    </a> | C++ | <span>May 2024 </span><br>
+                    • Developed a C++ program to visualize the Ulam spiral, a graphical depiction of prime numbers.<br>
+                    • Implemented prime number determination using trial division.<br>
+                    • Program generates a .txt file with the visual pattern displayed.<br>
+                </li>
+                <li>
+                    <a href="https://github.com/nicholasbrar/nicholasbrar.github.io" target="_blank">
+                        <strong>Portfolio Site</strong>
+                    </a> | HTML, CSS, Bootstrap, GitHub Pages | <span>Aug 2024 – Present</span><br>
+                    • Designed and built a personal portfolio website to highlight programming skills, projects, and accomplishments.<br>
+                    • Utilized HTML, CSS, and Bootstrap for a responsive and visually appealing layout.<br>
+                    • Deployed the site using GitHub Pages for easy access and updates.<br>
+                </li>
             </ul>
         </section>
+        <section class="coursework">
+            <h2>Coursework</h2>
+            <p>My coursework can be found here.</p>
+        </section>
         <footer>
-            <p>Pursuing a role in softwaretest engineering!</p>
+            <p>Pursuing a role in software engineering!</p>
         </footer>
     </div>
 </body>
