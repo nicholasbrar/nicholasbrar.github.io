@@ -58,3 +58,40 @@ footer p {
     font-style: italic;
     text-align: center;
 }
+
+.social-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-links .btn {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.github-btn {
+    background-color: #333;
+}
+
+.email-btn {
+    background-color: #6c757d;
+}
+
+.linkedin-btn {
+    background-color: #0077b5;
+}
+
+.twitter-btn {
+    background-color: #1da1f2;
+}
+
+.social-links .btn:hover {
+    opacity: 0.8;
+}
