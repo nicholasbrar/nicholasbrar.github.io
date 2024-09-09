@@ -31,18 +31,36 @@
             <p>I'm passionate about math, emerging technologies, problem-solving, and I love exploring their intersection through software development.</p>
         </header>
         <section class="hobbies">
-            <h2>A few of my many passions</h2>
-            <h3><strong>Chess player </strong></h3>
-            <p>Avid competitive chess fan, rated in the top 1% on chess.com and an active member of the Stony Brook and Pittsburgh chess clubs, competing in USCF tournements and the Collegiate Chess League.</p>
-            <p>my rating progression can be seen <a href="https://www.chess.com/stats/live/blitz/nixingb/0" target="_blank">here</a>.</p>
-        
+            <h2>A few of my passions</h2>
             <h3><strong>Problem Solving and Programming</strong></h3>
             <p>I have a deep passion for programming, with a particular interest in math-focused algorithms and competitive programming. I love approaching problems through a mathematical lens, and I've linked some examples of my work below:</p>
             <ul>
                 <li><a href="https://github.com/nicholasbrar/Leetcode" target="_blank">LeetCode Solutions</a></li>
                 <li><a href="https://github.com/nicholasbrar/Project-Euler" target="_blank">Project Euler Solutions</a></li>
             </ul>
+
+            <h3><strong>Chess </strong></h3>
+            <p>Avid competitive chess fan, rated in the top 1% on chess.com and an active member of the Stony Brook and Pittsburgh chess clubs, competing in USCF tournements and the Collegiate Chess League.</p>
+            <p>my rating progression can be seen <a href="https://www.chess.com/stats/live/blitz/nixingb/0" target="_blank">here</a>.</p>
+        
         </section>
+        <section class="chess-win">
+            <h2>Check out this win against a National Master in a USCF tournament:</h2>
+            <iframe id="12162433" allowtransparency="true" frameborder="0" style="width:100%;border:none;" 
+            src="https://www.chess.com/emboard?id=12162433"></iframe>
+            <script>
+                window.addEventListener("message", (e) => {
+                    const { data } = e;
+                    if (data?.id === "12162433") {
+                        const element = document.getElementById(data.id);
+                        if (element) {
+                            element.style.height = `${data.frameHeight + 37}px`;
+                        }
+                    }
+                });
+            </script>
+        </section>
+        
         <section class="projects">
             <h2>Projects</h2>
             <ul>
