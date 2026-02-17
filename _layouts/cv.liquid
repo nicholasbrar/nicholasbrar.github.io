@@ -147,11 +147,6 @@ layout: default
             {% continue %}
           {% endif %}
 
-          {% comment %} Skip sections with no entries (e.g. empty Awards, Publications, References) {% endcomment %}
-          {% if section_entries.size == 0 %}
-            {% continue %}
-          {% endif %}
-
           <a class="anchor" id="{{ section_title | slugify }}"></a>
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">{{ section_title }}</h3>

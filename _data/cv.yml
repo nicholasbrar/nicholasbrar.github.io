@@ -67,12 +67,6 @@ cv:
           - Applied modern software design patterns to parallelize feature extraction across 13 branches to extract rich and discriminative feature sets
           - TDA publication showcased on Stony Brook's DRP site
 
-    Volunteer: []
-
-    Awards: []
-
-    Publications: []
-
     Skills:
       - name: Languages
         level: Proficient
@@ -106,16 +100,15 @@ cv:
         icon: fa-solid fa-microchip
         keywords: "ML, quantitative finance, topological data analysis"
 
-    Certificates: [
-      - name: Advanced NLP with Python for Machine Learning 
+    Certificates:
+      - name: Advanced NLP with Python for Machine Learning
         date: 2025-09
         issuer: LinkedIn
         icon: fa-solid fa-location-dot
-      - name: Java (Basic) 
+      - name: Java (Basic)
         date: 2024-07
         issuer: HackerRank
         icon: fa-solid fa-location-dot
-    ]
 
     Projects:
       - name: Fast American Option Pricing
@@ -129,5 +122,3 @@ cv:
         highlights:
           - Built an end-to-end data pipeline to clean, integrate, and feature-engineer household, vehicle, and person-level survey data (NHTS) for predictive modeling
           - Developed and evaluated regression and ensemble models (Linear Regression, Random Forest) to predict household vehicle miles traveled (VMT), with weighted performance metrics and feature importance analysis
-
-    References: []
