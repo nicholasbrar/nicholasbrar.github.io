@@ -490,7 +490,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/https://www.linkedin.com/in/nicholasbrar/", "_blank");
+          window.open("https://www.linkedin.com/in/nicholasbrar", "_blank");
         },
       },{
       id: 'light-theme',
