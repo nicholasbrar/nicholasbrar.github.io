@@ -106,7 +106,16 @@ cv:
         icon: fa-solid fa-microchip
         keywords: "ML, quantitative finance, topological data analysis"
 
-    Certificates: []
+    Certificates: [
+      - name: Advanced NLP with Python for Machine Learning 
+        date: 2025-09
+        issuer: LinkedIn
+        icon: fa-solid fa-location-dot
+      - name: Java (Basic) 
+        date: 2024-07
+        issuer: HackerRank
+        icon: fa-solid fa-location-dot
+    ]
 
     Projects:
       - name: Fast American Option Pricing
