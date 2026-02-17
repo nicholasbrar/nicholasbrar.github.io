@@ -411,7 +411,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-impacts-dashboard",
           title: 'Impacts Dashboard',
-          description: "Dashboard of non-GHG environmental and socioeconomic impacts for jurisdictions.",
+          description: "Environmental and socioeconomic impact dashboard.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
