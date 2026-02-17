@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Previous SWE intern at <a href='https://www.ecodatalab.com/'>EcoDataLab</a> & <a href='https://www.dealershock.com/'>DealerShock</a>
 
 profile:
   align: right
