@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Impacts Dashboard
-description: Dashboard of non-GHG environmental and socioeconomic impacts for jurisdictions.
+description: Environmental and socioeconomic impact dashboard.
 img: assets/img/projects/impacts_dashboard/impact_map.png
 importance: 1
 category: work
