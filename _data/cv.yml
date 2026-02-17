@@ -15,36 +15,25 @@ cv:
       username: example
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: 
+    city: Pittsburgh
+    region: Pennsylvania
+    postalCode: 
+    countryCode: 
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
+      - institution: Stony Brook University
+        location: Stony Brook, NY
+        url: 
+        area: Mathematics
+        studyType: Bachelor of Science
+        start_date: 2021
+        end_date: 2025
         score: ""
-        courses: "Theory of Relativity"
+        courses: 
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+          - Member of Stony Brook Chess Club - got second place in the Collegiate Chess League in Fall 2024.
 
     Experience:
       - company: Institute for Advanced Study, Princeton University
