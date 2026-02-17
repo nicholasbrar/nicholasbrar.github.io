@@ -33,146 +33,92 @@ cv:
         score: ""
         courses: 
         highlights:
-          - Member of Stony Brook Chess Club - got second place in the Collegiate Chess League in Fall 2024.
+          - Member of Stony Brook Chess Club - 2nd place in the Collegiate Chess League in Fall 2024.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: EcoDataLab
+        position: Climate Data & Modeling Intern
+        location: Berkeley, CA (Remote)
+        start_date: 2025-09
+        end_date: 2025-02
         highlights:
-          - Relativity
-          - Description 2.
+          - Redesigned the Consumption Based Emissions Inventory (CBEI) modeling pipeline using CEX data, replacing a single model with 32 annual models and improving average predictive accuracy (R²) by 0.08
+          - Built a unified React map component that replaced iframe pages, cut load times by 5×, and enabled fully interactive maps for emissions by tract
+          - Built an end-to-end R workflow combining supply-chain and economic data to compute and visualize national non-GHG impact factors at the local level
+          - Automated the conversion of high-level impact data into detailed sector-level outputs, enabling more precise and locally relevant analysis
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Dealer Shock
+        position: Software Engineer Intern
+        location: Cleveland, OH (Remote)
+        start_date: 2025-01
+        end_date: 2025-05
         highlights:
-          - Description 1.
-          - Description 2.
+          - Built the company's official React Native mobile application from scratch using Expo, pushing development 12 months ahead of its original estimated release date
+          - Automated VIN scanning for clients, reducing manual entry by 90%
+          - Collaborated in 2-week sprints using Agile methodologies to deliver iterative improvements
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Stony Brook University Mathematics Department
+        position: DRP Undergraduate Scholar
+        location: Stony Brook, NY
+        start_date: 2024-12
+        end_date: 2025-05
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Built a Python-based MNIST classification pipeline using topological features, surpassing prior topological data analysis (TDA) benchmarks
+          - Applied modern software design patterns to parallelize feature extraction across 13 branches to extract rich and discriminative feature sets
+          - TDA publication showcased on Stony Brook's DRP site
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+    Volunteer: []
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+    Awards: []
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    Publications: []
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Languages
+        level: Proficient
+        icon: fa-solid fa-code
+        keywords: "Python, Java, C/C++, JavaScript, SQL (Postgres), R"
+
+      - name: ML Frameworks & Libraries
+        level: Proficient
+        icon: fa-solid fa-brain
+        keywords: "Scikit-learn, TensorFlow, PyTorch, NLP (NLTK, spaCy, Hugging Face)"
+
+      - name: Developer Tools
+        level: Proficient
+        icon: fa-solid fa-wrench
+        keywords: "Git, Supabase, BitBucket, Jira, Firebase"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
-
       - name: English
-        summary: "Fluent"
+        summary: "Native"
+      - name: Spanish
+        summary: "Basic"
+      - name: Hindi
+        summary: "Basic"
 
     Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Climate & Environment
+        icon: fa-solid fa-leaf
+        keywords: "Ecology, climate modeling, environmental data"
 
-    Certificates:
       - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+        icon: fa-solid fa-microchip
+        keywords: "ML, quantitative finance, topological data analysis"
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+    Certificates: []
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Fast American Option Pricing
+        summary: Python, C++, Quantitative Finance, Numerical Methods
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Implemented a high-performance spectral collocation method for American option pricing in C++, based on Jacobi–Newton iteration, Gauss–Legendre quadrature, and Chebyshev polynomial interpolation
+          - Reproduced results from research literature, achieving computational throughput of 100,000 option prices per second per CPU in the Black–Scholes model
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Vehicle Miles Traveled (VMT) Model
+        summary: Python, Pandas, NumPy, scikit-learn, Random Forest
+        highlights:
+          - Built an end-to-end data pipeline to clean, integrate, and feature-engineer household, vehicle, and person-level survey data (NHTS) for predictive modeling
+          - Developed and evaluated regression and ensemble models (Linear Regression, Random Forest) to predict household vehicle miles traveled (VMT), with weighted performance metrics and feature importance analysis
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    References: []
