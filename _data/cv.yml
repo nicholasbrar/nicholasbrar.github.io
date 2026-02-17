@@ -40,7 +40,7 @@ cv:
         position: Climate Data & Modeling Intern
         location: Berkeley, CA (Remote)
         start_date: 2025-09
-        end_date: 2025-02
+        end_date: 2026-02
         highlights:
           - Redesigned the Consumption Based Emissions Inventory (CBEI) modeling pipeline using CEX data, replacing a single model with 32 annual models and improving average predictive accuracy (R²) by 0.08
           - Built a unified React map component that replaced iframe pages, cut load times by 5×, and enabled fully interactive maps for emissions by tract
