@@ -13,13 +13,17 @@ A dashboard built to visualize a wide range of **non-GHG impacts** for jurisdict
 The images below are a selected sample; the full dashboard offers much more extensive data, visualizations, and filtering.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/impacts_dashboard/impact_map.png" title="Impact map" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+</div>
+<div class="row">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/impacts_dashboard/impacts_radar.png" title="Impacts radar" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+</div>
+<div class="row">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/impacts_dashboard/impact_key_insights.png" title="Key insights" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
