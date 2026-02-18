@@ -429,9 +429,9 @@ ninja.data = [{
           description: "Typical household profiles by demographics and consumption.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-dealershock-mobile-app",
+          title: 'DealerShock Mobile App',
+          description: "React Native (Expo) app for dealers—VIN scanner, WebView dashboard, push notifications.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
