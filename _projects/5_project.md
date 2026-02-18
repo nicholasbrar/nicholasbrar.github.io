@@ -15,8 +15,34 @@ I built a **VIN scanner** screen that uses the device camera to read barcodes an
 
 On the **notifications** side, I wired up Expo push tokens to Supabase, registering them per user and dealership so the app can deliver targeted push alerts. It ships as a polished native app on both iOS and Android, complete with EAS updates, splash screen, and notification icons.
 
-<div class="row justify-content-sm-center mt-4">
-    <div class="col-sm-12 col-md-8 col-lg-6">
+<style>
+.dealer-mobile-slider swiper-container {
+  max-height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dealer-mobile-slider swiper-slide {
+  max-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dealer-mobile-slider swiper-slide figure,
+.dealer-mobile-slider swiper-slide picture {
+  max-height: 50vh;
+  margin: 0;
+}
+.dealer-mobile-slider swiper-container img {
+  object-fit: contain;
+  max-height: 50vh;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+</style>
+<div class="row justify-content-sm-center mt-4 dealer-mobile-slider">
+    <div class="col-sm-12 col-md-6 col-lg-4">
         <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" rewind="true">
             <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/projects/dealershock_mobile/IMG_6759.PNG" title="Dealer Shock app" class="img-fluid rounded z-depth-1" %}</swiper-slide>
             <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/projects/dealershock_mobile/IMG_6760.PNG" title="Dealer Shock app" class="img-fluid rounded z-depth-1" %}</swiper-slide>
