@@ -419,9 +419,9 @@ ninja.data = [{
           description: "High performance log-linear regression model",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-emission-sources",
+          title: 'Emission Sources',
+          description: "Where emissions come from",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
