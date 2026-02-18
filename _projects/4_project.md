@@ -13,38 +13,21 @@ The page answers: *What kinds of households live here, how do they differ in emi
 
 The views below are a selected sample; the full Household Archetypes dashboard has more charts, tabs, and filtering.
 
-<style>
-/* Bigger images: full-width hero, equal-height side-by-side */
-.archetype-twin-figures .col-sm {
-  display: flex;
-  flex-direction: column;
-  min-height: 420px;
-}
-.archetype-twin-figures figure {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  min-height: 0;
-}
-.archetype-twin-figures figure img {
-  object-fit: contain;
-  width: 100%;
-  flex: 1;
-  min-height: 380px;
-}
-</style>
-
-<div class="row mt-4">
-    <div class="col-12 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/household_archetypes/archetype_breakdown.png" title="Archetype breakdown" caption="Profile breakdown: typical household clusters and their share of the region." alt="Archetype breakdown chart" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/household_archetypes/archetype_breakdown.png" title="Archetype breakdown" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
-<div class="row mt-4 archetype-twin-figures">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/household_archetypes/archetype_emissions.png" title="Emissions by archetype" caption="Emissions by category for each household archetype." alt="Emissions by archetype chart" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/household_archetypes/archetype_emissions.png" title="Emissions by archetype" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/household_archetypes/archetype_total_emissions.png" title="Total emissions" caption="Total consumption-based emissions by profile." alt="Total emissions by archetype chart" class="img-fluid rounded z-depth-1" %}
+</div>
+<div class="row">
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/household_archetypes/archetype_total_emissions.png" title="Total emissions" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    Selected views from the Household Archetypes dashboard—profile breakdown, emissions by archetype, and total emissions.
 </div>
