@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Household Archetypes
-description: Typical household profiles by demographics and consumption, and how each contributes to emissions.
+description: Typical household profiles by demographics and consumption.
 img: assets/img/projects/household_archetypes/archetype_breakdown.png
 importance: 1
 category: work
