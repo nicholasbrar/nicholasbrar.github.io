@@ -419,9 +419,9 @@ ninja.data = [{
           description: "High performance log-linear regression model",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-emission-sources",
-          title: 'Emission Sources',
-          description: "Where emissions come from",
+            },},{id: "projects-emission-sources-dashboard",
+          title: 'Emission Sources Dashboard',
+          description: "Tracing regional emissions by source and geography.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-household-archetypes",
