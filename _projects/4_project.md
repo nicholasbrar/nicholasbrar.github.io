@@ -13,19 +13,17 @@ The page answers: *What kinds of households live here, how do they differ in emi
 
 The views below are a selected sample; the full Household Archetypes dashboard has more charts, tabs, and filtering.
 
-<div class="row">
-    <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/household_archetypes/archetype_breakdown.png" title="Archetype breakdown" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center mt-4">
+    <div class="col-sm-11 col-md-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/household_archetypes/archetype_breakdown.png" title="Archetype breakdown" caption="Profile breakdown: typical household clusters and their share of the region." alt="Archetype breakdown chart" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="row">
+
+<div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/household_archetypes/archetype_emissions.png" title="Emissions by archetype" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/household_archetypes/archetype_emissions.png" title="Emissions by archetype" caption="Emissions by category for each household archetype." alt="Emissions by archetype chart" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/household_archetypes/archetype_total_emissions.png" title="Total emissions" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/household_archetypes/archetype_total_emissions.png" title="Total emissions" caption="Total consumption-based emissions by profile." alt="Total emissions by archetype chart" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    Selected views from the Household Archetypes dashboard—profile breakdown, emissions by archetype, and total emissions.
 </div>
