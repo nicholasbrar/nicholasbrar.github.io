@@ -434,8 +434,8 @@ ninja.data = [{
           description: "React Native (Expo) app for dealers—VIN scanner, WebView dashboard, push notifications.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-chess-com-stats-amp-improvement",
-          title: 'Chess.com Stats &amp;amp; Improvement',
+            },},{id: "projects-chess-pulse",
+          title: 'Chess Pulse',
           description: "Using the Chess.com API to extract more useful stats and improvement insights.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
