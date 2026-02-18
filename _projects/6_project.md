@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Chess.com Stats & Improvement
+title: Chess Pulse
 description: Using the Chess.com API to extract more useful stats and improvement insights.
 img: assets/img/projects/chess/chess_overview.png
 importance: 1
