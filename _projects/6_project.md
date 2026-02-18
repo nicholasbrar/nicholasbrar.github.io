@@ -3,7 +3,7 @@ layout: page
 title: Chess.com Stats & Improvement
 description: Using the Chess.com API to extract more useful stats and improvement insights.
 img: assets/img/projects/chess/chess_overview.png
-importance: 4
+importance: 1
 category: fun
 ---
 
