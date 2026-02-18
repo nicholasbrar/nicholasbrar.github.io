@@ -3,7 +3,7 @@ layout: page
 title: Household Archetypes
 description: placeholder
 img:
-importance: 3
+importance: 1
 category: work
 ---
 

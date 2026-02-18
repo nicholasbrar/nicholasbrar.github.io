@@ -3,7 +3,7 @@ layout: page
 title: Emission Sources Dashboard
 description: Tracing regional emissions by source and geography.
 img: assets/img/projects/emission_sources/emission_sources_by_category.png
-importance: 3
+importance: 1
 category: work
 ---
 
