@@ -15,24 +15,24 @@ Screenshots below show an overview of recent activity, speed/rating profile, and
 
 <style>
 .chess-stats-slider swiper-container {
-  max-height: 50vh;
+  max-height: 60vh;
   margin-left: auto;
   margin-right: auto;
 }
 .chess-stats-slider swiper-slide {
-  max-height: 50vh;
+  max-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .chess-stats-slider swiper-slide figure,
 .chess-stats-slider swiper-slide picture {
-  max-height: 50vh;
+  max-height: 60vh;
   margin: 0;
 }
 .chess-stats-slider swiper-container img {
   object-fit: contain;
-  max-height: 50vh;
+  max-height: 60vh;
   width: auto;
   height: auto;
   margin: 0 auto;
@@ -40,7 +40,7 @@ Screenshots below show an overview of recent activity, speed/rating profile, and
 }
 </style>
 <div class="row justify-content-sm-center mt-4 chess-stats-slider">
-    <div class="col-sm-12 col-md-6 col-lg-4">
+    <div class="col-sm-12 col-md-8 col-lg-6">
         <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" rewind="true">
             <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/projects/chess/chess_overview.png" title="Chess overview" class="img-fluid rounded z-depth-1" %}</swiper-slide>
             <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/projects/chess/chess_speed_profile.png" title="Speed and rating profile" class="img-fluid rounded z-depth-1" %}</swiper-slide>
