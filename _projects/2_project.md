@@ -2,7 +2,7 @@
 layout: page
 title: Consumption Model
 description: High performance log-linear regression model
-img: assets/img/3.jpg
+img: assets/img/projects/consumption_model/consumption_pic.png
 importance: 2
 category: work
 related_publications: false
