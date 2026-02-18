@@ -139,6 +139,17 @@ ul.task-list input[type="checkbox"] {
     img {
       width: 100%;
     }
+
+    /* Uniform height for project cover images (grid and horizontal layouts) */
+    .card-img-top,
+    .card-img {
+      display: block;
+      height: 200px;
+      width: 100%;
+      padding: 0;
+      object-fit: cover;
+      object-position: center;
+    }
   }
 
   .col {
