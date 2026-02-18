@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Emission Sources
+description: Where emissions come from
+img: 
+redirect: 
 importance: 3
 category: work
 ---
