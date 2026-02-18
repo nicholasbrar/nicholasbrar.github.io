@@ -3,7 +3,7 @@ layout: page
 title: DealerShock Mobile App
 description: React Native (Expo) app for dealers—VIN scanner, WebView dashboard, push notifications.
 img: assets/img/projects/dealershock_mobile/IMG_6759.PNG
-importance: 3
+importance: 1
 category: work
 images:
   slider: true
