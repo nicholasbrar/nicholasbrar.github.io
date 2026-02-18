@@ -426,7 +426,7 @@ ninja.data = [{
               window.location.href = "/projects/3_project/";
             },},{id: "projects-household-archetypes",
           title: 'Household Archetypes',
-          description: "Typical household profiles by demographics and consumption, and how each contributes to emissions.",
+          description: "Typical household profiles by demographics and consumption.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
