@@ -10,7 +10,7 @@ nav: false
 
 **Work & side projects**
 
-- I'm working on a [chess analysis project]({{ '/projects/6_project/' | relative_url }})—using the Chess.com API for better stats and improvement insights. Still very much in progress; you can see it on my [projects]({{ '/projects/' | relative_url }}) page.
+- I'm working on a [chess analysis project]({{ '/projects/6_project/' | relative_url }})—using the Chess.com API for better stats and improvement insights. Still very much in progress; you can see it on my projects page.
 
 **Sports & community**
 
