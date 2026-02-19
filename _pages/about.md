@@ -25,4 +25,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Math degree from Stony Brook. Built a mobile app at [DealerShock](https://www.dealershock.com/), then wore a lot of hats at [EcoDataLab](https://www.ecodatalab.com/). When I'm not building things, you'll find me at a chess board or on the pickleball court.
+Math degree from Stony Brook. Built a mobile app at [DealerShock](https://www.dealershock.com/), then moved into climate and environmental data at [EcoDataLab](https://www.ecodatalab.com/). When I'm not building things, you'll find me at a chess board or on the pickleball court.
