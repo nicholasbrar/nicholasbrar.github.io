@@ -14,7 +14,7 @@ nav: false
 
 **Sports & community**
 
-- I've been playing **pickleball** and have been participating in local tournaments.
+- I've been playing [**pickleball**](https://pickleball.com/players/nicholas-brar) and have been participating in local tournaments.
 - I'm **playing chess** and involved with the [Pittsburgh Chess Club](https://www.pittsburghchessclub.org/).
 
 **Learning & exploring**
