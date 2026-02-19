@@ -1,13 +1,22 @@
 ---
-layout: book-shelf
-title: bookshelf
-permalink: /books/
+layout: page
+title: now
+permalink: /now/
+description: What I'm up to right now.
 nav: false
-collection: books
 ---
 
-> What an astonishing thing a book is. It's a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you're inside the mind of another person, maybe somebody dead for thousands of years. Across the millennia, an author is speaking clearly and silently inside your head, directly to you. Writing is perhaps the greatest of human inventions, binding together people who never knew each other, citizens of distant epochs. Books break the shackles of time. A book is proof that humans are capable of working magic.
->
-> -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
+*Last updated: February 2025*
 
-## Books that I am reading, have read, or will read
+**Work & side projects**
+
+- I'm working on the [chess analysis project]({{ '/projects/6_project/' | relative_url }})—using the Chess.com API for better stats and improvement insights. Still very much in progress; you can see it on my [projects]({{ '/projects/' | relative_url }}) page.
+
+**Sports & community**
+
+- I've been playing **pickleball** and am training for a future tournament.
+- I'm **playing chess** and involved with the [Pittsburgh Chess Club](https://www.pittsburghchessclub.org/).
+
+**Learning & exploring**
+
+- Diving into **computer vision** and **NLP**.
