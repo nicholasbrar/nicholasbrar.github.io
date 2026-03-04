@@ -7,6 +7,8 @@ importance: 1
 category: work
 ---
 
+> **Disclaimer:** The data shown in this demo is illustrative only and is not real.
+
 **Household Profiles (Archetypes)** is a CBEI dashboard page that breaks down a region’s households into a small set of typical profiles (e.g. 5–8 clusters) using **k-means clustering** on demographics and consumption, then shows how each profile contributes to consumption-based emissions. It uses state-level archetype data (demographics, emissions by category) and, for counties, county-level shares and PUMA-level distributions.
 
 The page answers: *What kinds of households live here, how do they differ in emissions, and where (by PUMA) do different profiles concentrate?* so users can target policies and outreach by household type and geography. The frontend has four tabs—Overview (PUMA map, demographic cards, profile vs state average), Impact (total emissions by profile), Drivers (emissions by category per profile), and PUMA Breakdown (profile mix by area)—plus filters and detailed tables.

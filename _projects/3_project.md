@@ -7,6 +7,8 @@ importance: 1
 category: work
 ---
 
+> **Disclaimer:** The data shown in this demo is illustrative only and is not real.
+
 **Emission Sources** is a CBEI dashboard page that shows where a region’s consumption-based emissions come from and how they’re split by **geography** (in-state, rest of US, international) and **supply chain** (direct vs indirect). It uses household consumption data and state-level emission factors to estimate emissions by category—e.g. food, housing, transport.
 
 The page answers: *Where do this place’s emissions actually occur, and how much is direct vs supply-chain?* Users see summary cards, breakdowns by category and origin, total-emissions and geographic pie charts, and a detailed table.

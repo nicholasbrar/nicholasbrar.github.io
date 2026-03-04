@@ -8,6 +8,8 @@ category: work
 related_publications: false
 ---
 
+> **Disclaimer:** The data shown in this demo is illustrative only and is not real.
+
 A dashboard built to visualize a wide range of **non-GHG impacts** for jurisdictions—from environmental indicators (e.g., water use, land use, ecotoxicity) to socioeconomic metrics (e.g., jobs supported, value added). Users can explore impacts by geography and compare across regions.
 
 The images below are a selected sample; the full dashboard offers much more extensive data, visualizations, and filtering.
